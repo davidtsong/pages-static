@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="LifeGlass - Procrastionation Killer">
+    <meta property="og:image" content="http://davidtsong.com/img/hourglass.png">
+    <meta property="og:description" content="MacOS menubar app to remind you of your life passing before your eyes">
+    <title>LifeGlass</title>
+    <style>
+        .wrapper{
+            text-align:center;
+            padding:10% 5% 0 5%;
+        }
+        html{
+            font-family:Helvetica;
+        }
+        h1{
+            font-weight: 400;
+        }
+        h2{
+          font-weight:200;
+        }
+        span{
+            font-size:30px;
+        }
+        .profile-img{
+            max-width:200px;
+            border-radius:50%;
+        }
+        .profile{
+          margin-top:10%;
+        }
+        a{
+          text-decoration:none;
+          color:green;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="img/LifeGlass.gif"></img>
+        <h1>LifeGlass (n) [lahyf glas] <br>
+            > a MacOS menubar app for tracking the time you've been alive
+            <br> <br>
+            Use LifeGlass to end procrastination now. Time is priceless :P
+        </h1>
+        <a href="#!" onClick="ga(‘send’, ‘event’, 'landing', 'clickedBuyNow', 'paddle');" class="paddle_button" data-product="532914"><span>Download Now</span></a>
+
+        <div class="profile">
+            <h2>David made this in his free time. He is a freshman college student studying CS. This goes to pay for his food at the 42 Programming Bootcamp this summer.</h2>
+            <a href="index.html">davidtsong.com</a>
+            <br>
+            <br>
+            <img src="img/profile-mini.png" class="profile-img" alt="">
+        </div>
+        <div class="faq">
+          <h3> FAQ </h3>
+          <p>Q: Do I get free updates?</p>
+          <p>A: Of course! You will receive a lifetime of free app updates and upgrades.</p>
+          <p>Q: How do I make the app launch on startup?</p>
+          <p>A: You can add LifeGlass to your launch startup list as detailed <a href="https://www.lifewire.com/how-to-add-startup-items-to-mac-2260903"> here.</a>
+            Unfortunately, Apple limits the launch on start without needing to change configuration settings to only developer accounts. I am saving up for the $100 /yr subscriptions costs to implement this functionality :) </p>
+          <p>Q: How can I get notified of new app developments and projects you work on?</p>
+          <p>A: You can signup to be notified through this <a href="http://eepurl.com/djrucf"> form </a>. I'll plug ya with exclusive discounts and offers </p>
+          </div>
+
+    </div>
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+    <script type="text/javascript">
+        Paddle.Setup({
+            vendor: 32622
+        });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62683033-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-62683033-6');
+    </script>
+
+</body>
+</html>
